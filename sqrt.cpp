@@ -22,6 +22,7 @@ int Sqrt_a(int n){
     }
 }
 
+// By binary serch
 
 int main(){
     int a = Sqrt_a(256);
@@ -36,5 +37,5 @@ int main(){
     assert(Sqrt_a(17) == -1);
     assert(Sqrt_a(100) == 10);
     assert(Sqrt_a(256) == 16);
-    assert(Sqrt_a(17) == 12);
+    assert(Sqrt_a(17) == -1);
 }
